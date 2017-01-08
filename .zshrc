@@ -101,3 +101,7 @@ alias la="ll -a"
 alias srspec="spring rspec"
 alias srails="spring rails"
 alias srake="spring rake" 
+
+#dotfiles manager
+alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
+    
