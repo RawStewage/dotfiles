@@ -112,6 +112,7 @@ map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
 
 " Fuzzy Finder
+set rtp+=/usr/local/opt/fzf
 nmap <Leader>t :FZF<CR>
 
 " Stop wit that
