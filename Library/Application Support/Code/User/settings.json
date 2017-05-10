@@ -1,0 +1,17 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "ruby.lint": {
+      "ruby": true,
+      "rubocop": true
+    },
+
+
+    "editor.tabSize": 2,
+    "git.confirmSync": false,
+    "terminal.integrated.shellArgs.osx": [
+      "-l"
+    ],
+    "ruby.rubocop.executePath": "/Users/stuartjohnson/.rvm/gems/ruby-2.3.1@jobber/bin/",
+    "workbench.editor.enablePreviewFromQuickOpen": false
+  }
+

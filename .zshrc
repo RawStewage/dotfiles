@@ -53,7 +53,7 @@ plugins=(git brew bundler)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+#export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -85,10 +85,8 @@ source $ZSH/oh-my-zsh.sh
 alias be="bundle exec"
 alias cl="clear"
 
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 #eval "$(rbenv init -)"
-export PATH=$PATH:/usr/local/sbin
-export PATH=$HOME/bin:$PATH
+#export PATH=$HOME/bin:$PATH
 
 export TEST_ENV_NUMBER=8
 
@@ -105,3 +103,4 @@ alias srake="spring rake"
 #dotfiles manager
 alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
     
+
